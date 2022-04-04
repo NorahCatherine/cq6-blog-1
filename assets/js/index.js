@@ -46,8 +46,10 @@ form.addEventListener('submit', (e) => {
         content: content.value
     }
 
-    // console.log('submited', blogBost)
+    console.log('submited', blogBost)
+    posts.push(blogBost)
+    console.log("posts",posts)
 })
 
 
-// console.log(getAuthor('armstrongsouljah@gmail.com'))
+console.log(getAuthor('norahcatherinenansubuga@gmail.com'))
